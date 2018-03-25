@@ -1,0 +1,598 @@
+*{
+	margin:auto;
+	padding:0px;
+    list-style: none;
+}
+body
+{
+    background: #eee
+}
+#header
+{
+	background: #2f4f6c repeat-x top;
+	height:198px;
+	position:relative;
+}
+
+#logo
+{
+	position:absolute;
+	top:40px;
+	right:10px;
+}
+
+#navbar{
+   box-shadow: 0 0 18px 0 rgba(0,0,0,0.173);
+
+}
+
+#navtop
+{
+    overflow: hidden;
+    background: #4160D9;
+    box-shadow: 0 0 18px 0 rgba(0,0,0,0.173);
+}
+
+#navbar li{
+	float:right;
+	list-style:none;
+}
+
+#navbar li a
+{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	height:25px;
+	padding:7px;
+	font:14pt calibri;
+}
+#navbar li a:hover
+{
+	background:#FFF;
+	color:#24485c;
+}
+
+#main-content
+{
+	background: #fff repeat-y center;
+	width:966px;
+	overflow:hidden;
+}
+
+#posts
+{
+	margin-top:10px;
+	margin-left:30px;
+    margin-right:10px;
+	width:615px;
+	float:right;
+    text-align: right;
+
+}
+.post{
+	border-bottom:2px double #4289af;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+
+
+.textpost
+{
+	float:right;
+	width:450px;
+	margin:5px;
+	text-align:right;
+}
+
+.postimage
+{
+	float:right;
+	margin:5px;
+}
+
+.readmore a
+{
+	float:left;
+	background:url(images/readmore.png) no-repeat;
+	width:155px;
+	height:30px;
+	color:#FFF;
+	font:12pt bold Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	padding-top:4px;
+    text-align: center;
+}
+
+.readmore a:hover
+{
+	color:#0CC;
+	font:12pt bold Verdana, Geneva, sans-serif;
+	text-decoration:underline;
+}
+.post-info
+{
+    text-indent: 10px;
+	margin:5px;
+	padding:5px;
+	background:#399;
+	border:1px solid #339;
+	overflow:hidden;
+}
+
+.leftinfo
+{
+	float:right;
+}
+.rightinfo
+{
+	float:left;
+}
+
+.post-info a
+{
+	color:#CFF;
+	text-decoration:none;
+}
+
+.post-info a:hover
+{
+	color:#0F9;
+	text-decoration:underline;
+}
+
+.post h2 
+{
+    direction: rtl;
+    text-indent: 10px
+    
+}
+.post h2 a
+{
+	color:darkred;
+	text-decoration:none;
+    
+    
+}
+.post h2 a:hover
+{
+	color:coral;
+	border-bottom:1px dotted coral;
+}
+
+
+#sidebar{
+	float:right;
+	width:280px;
+}
+
+
+#sidebar ul li 
+{
+	list-style:none;
+}
+#sidebar ul li a
+{
+	color:#39C;
+	font:Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	margin-left:20px;
+}
+
+#sidebar ul li a:hover
+{
+	color:#FC6;
+	font:Tahoma, Geneva, sans-serif;
+	text-decoration:underline;
+	margin-left:20px;
+}
+
+#sidebar h2
+{
+	background:url(images/sidebar-title.png) no-repeat;
+	width:200px;
+	height:57px;
+	font:14pt bold "Arial Black", Gadget, sans-serif;
+	color:#FFF;
+	margin-left:-15px;
+	margin-top:10px;
+	padding-left:117px;
+	padding-top:10px;
+}
+
+#sidebar ul
+{
+	margin-bottom:30px;
+    padding-left:165px;
+    padding-top: 1px
+}
+
+#sidebar #search h2{
+	background:url(images/search-bg.png) no-repeat;
+	width:282px;
+	height:56px;
+	padding-left:225px;
+    
+}
+
+#text-search
+{
+    color: #f7f7f7;
+	background:url(images/search-text.png) no-repeat;
+	width:225px;
+	height:37px;
+    
+	border:none;
+	padding-left:32px;
+	margin-left:-13px;
+    float: right
+}
+
+#btn-search
+{
+	background:url(images/search-btn.png) no-repeat;
+	width:42px;
+	height:36px;
+	border:none;
+	margin-left:-15px;
+	text-indent:-200px;
+	cursor:pointer;
+}
+
+#btnsubsc
+{
+    background:url(images/btnsubsc.png) no-repeat;
+	width:50px;
+	height:36px;
+	border:none;
+	
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-indent: -9200px;
+	cursor:pointer;
+}
+
+#txtmail
+{
+   color: #f7f7f7;
+	background:url(images/search-text.png) no-repeat;
+	width:225px;
+	height:37px;
+    
+	border:none;
+	padding-left:32px;
+	margin-left:-13px;
+   float: right 
+}
+
+   /* Start Footer */
+
+#footer
+{
+	background:#415f71 repeat-x center bottom;
+	height:170px;
+}
+
+#footer-1
+{
+    direction: rtl;
+	width:600px;
+	float:right;
+	margin-right:140px;
+	margin-top:20px;
+}
+#footer-1 h3
+{
+	color:#FFF;
+	font:bold Tahoma, Geneva, sans-serif;
+}
+#footer-1 p
+{
+    direction: rtl;
+    text-align:right;
+    color: #fff;
+    font-family: treexil!important;
+    font-size: 13px;
+    font-weight: bold;
+}
+#socialmedia
+{
+	float:left;
+	margin-left:170px;
+	margin-top:20px;
+}
+#socialmedia h3
+{
+	color:#FFF;
+	font:bold Tahoma, Geneva, sans-serif;
+
+}
+
+#socialmedia p
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+    text-align:justify;
+	color:#CCC;
+}
+
+#copyright
+{
+    overflow: hidden; 
+    background: #4160D9;
+    box-shadow: 0 0 18px 0 rgba(0,0,0,0.173);
+    padding: 5px 500px;
+    font:bold;
+    
+    
+    
+
+    
+}
+
+#footer-2
+{
+    background-color: #415f71;
+	font:bold;
+   
+}
+   /* Start Footer */
+
+  /* Start Back To Top */
+
+ div.back_top
+{ 
+    right: 20px;
+    float: right;
+    width: 50px;
+    height: 55px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    bottom: 15px;
+    border-bottom: 5px solid #09759e;
+ 	display: block;
+    position: fixed;
+    background: #0c99ce url(images/backToTop.png) 0px 3px;
+    text-align: center;
+}
+div.back_top a {
+    background: #0c99ce url(images/backToTop.png) 0px 3px;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    border-bottom: 5px solid #09759e;
+    display: block;
+}
+    /* End Back To Top */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Styles Of The Faharas Site */
+
+#labelwidget #HTML642
+{
+    
+    background-color: #f1f1f1;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.09);
+    
+}
+
+#HTML642 .widget-title
+{
+    height: 26px;
+    background: #fff;
+    padding: 0 15px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.063);
+}
+ 
+.moreawidgetfahras
+{
+    margin-right: 507px;
+}
+#HTML642 .widget-title h2
+{
+    font-family: treexil;
+    display: inline-block;
+    
+    color: #a0a0a0;
+    font-size: 15px;
+}
+
+
+#HTML642 .widget-title .moreawidgetfahras a
+{
+    margin-top: -20px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.21);
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 0 16px;
+    font-size: 13px;
+    color: #747474;
+    transform: scale(1.05,1);
+    display: inline-block;
+    height: 23px;
+    text-decoration: none;
+    line-height: 23px;
+}
+
+#HTML642 .widget-title .moreawidgetfahras i
+{
+        -webkit-transition: all .3s;
+        padding-right: 5px;
+    font-size: 11px;
+    color: #499a9c;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+#HTML642 .widget-content 
+{
+    padding: 15px;
+    overflow: hidden;
+    
+}
+
+.square-post
+{
+    width: 589px;
+    position: relative;
+    float: right;
+}
+
+.square-post .recent-square {
+    float: right;
+    
+    margin-bottom: 15px;
+}
+
+.square-post .recent-square .square-thumb
+{
+    margin-bottom: 10px;
+}
+
+.square-post .recent-square .square-img {
+    background-size: cover;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    padding: 4px;
+    height: 170px;
+    display: block;
+}
+
+.square-post .recent-square .square-content 
+{
+    padding: 0 10px;
+}
+
+.square-post .recent-square .square-title {
+    height: 53px;
+    overflow: hidden;
+}
+
+.square-post .recent-square .square-title a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: treexil2,arial;
+    color: #7b7b7b;
+}
+
+.square-post .recent-square .square-content .scom {
+    color: #499a9c;
+    font-size: 12px;
+    font-family: treexil;
+}
+
+.widget li
+{
+    padding: 0;
+}
+
+.square-post .recent-square:nth-child(2)
+{
+    margin: 0 10px;
+}
+
+
+img {
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+}
+
+.square-post .recent-square .square-content {
+    padding: 0 10px;
+}
+
+
+.square-post .recent-square {
+    float: right;
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+.square-post .recent-square .square-thumb, .square-post .recent-square .square-title {
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
